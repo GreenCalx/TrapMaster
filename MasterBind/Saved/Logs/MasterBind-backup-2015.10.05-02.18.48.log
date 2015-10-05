@@ -1,0 +1,667 @@
+﻿[2015.10.04-22.53.08:779][  0]Log file open, 10/05/15 00:53:08
+[2015.10.04-22.53.08:779][  0]LogInit:Display: Running engine for game: MasterBind
+[2015.10.04-22.53.08:779][  0]LogInit:Display: RandInit(1373197703) SRandInit(1373197704).
+[2015.10.04-22.53.08:779][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.04-22.53.08:779][  0]LogStats: Stats thread started at 0.076855
+[2015.10.04-22.53.08:779][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.04-22.53.08:779][  0]LogInit: API Version: 2672455
+[2015.10.04-22.53.08:779][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.04-22.53.08:779][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.04-22.53.08:779][  0]LogInit: Build Configuration: Development
+[2015.10.04-22.53.08:779][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.04-22.53.08:779][  0]LogInit: Command line: 
+[2015.10.04-22.53.08:779][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.04-22.53.08:779][  0]LogInit: Rocket: 1
+[2015.10.04-22.53.08:786][  0]LogInit: Using libcurl 7.41.0
+[2015.10.04-22.53.08:786][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.04-22.53.08:786][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.04-22.53.08:786][  0]LogInit:  - other features:
+[2015.10.04-22.53.08:786][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.04-22.53.08:786][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.04-22.53.08:786][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.04-22.53.08:786][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.04-22.53.08:786][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.04-22.53.08:786][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.04-22.53.08:786][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.04-22.53.08:786][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.04-22.53.08:786][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.04-22.53.08:787][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.04-22.53.08:793][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.04-22.53.08:800][  0]LogInit: Object subsystem initialized
+[2015.10.04-22.53.08:803][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.04-22.53.08:803][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.04-22.53.08:811][  0]LogInit: Computer: BLUECALX-PC
+[2015.10.04-22.53.08:811][  0]LogInit: User: BlueCalx
+[2015.10.04-22.53.08:812][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.04-22.53.08:812][  0]LogInit: High frequency timer resolution =3.320337 MHz
+[2015.10.04-22.53.08:812][  0]LogMemory: Memory total: Physical=9.9GB (10GB approx)
+[2015.10.04-22.53.08:812][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.04-22.53.08:812][  0]LogMemory: Process Physical Memory: 54.14 MB used, 54.14 MB peak
+[2015.10.04-22.53.08:812][  0]LogMemory: Process Virtual Memory: 54.46 MB used, 54.46 MB peak
+[2015.10.04-22.53.08:812][  0]LogMemory: Physical Memory: 5774.02 MB used, 10126.94 MB total
+[2015.10.04-22.53.08:812][  0]LogMemory: Virtual Memory: 366.82 MB used, 134217728.00 MB total
+[2015.10.04-22.53.08:844][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2015.10.04-22.53.09:598][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.10.04-22.53.09:598][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 5063MB of shared system memory, 1 output[s]
+[2015.10.04-22.53.09:603][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.10.04-22.53.09:603][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.10.04-22.53.09:604][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.04-22.53.09:604][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 5063MB of shared system memory, 0 output[s]
+[2015.10.04-22.53.09:604][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.04-22.53.09:607][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.04-22.53.09:607][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.04-22.53.09:619][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.04-22.53.09:635][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Intermediate/Shaders/WorkingDirectory/10944/).
+[2015.10.04-22.53.09:636][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Intermediate/Shaders/tmp/0DAE620F44637743D6C635AFD34E1245/'.
+[2015.10.04-22.53.09:636][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.04-22.53.10:645][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.04-22.53.10:651][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.04-22.53.10:656][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.04-22.53.10:661][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.04-22.53.10:665][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.04-22.53.10:669][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.04-22.53.10:672][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.04-22.53.10:675][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.04-22.53.10:678][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.04-22.53.10:681][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.04-22.53.10:685][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.04-22.53.10:688][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.04-22.53.10:688][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.04-22.53.10:705][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.04-22.53.10:708][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.04-22.53.10:710][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.04-22.53.10:714][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.04-22.53.10:714][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.04-22.53.10:796][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.04-22.53.10:841][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/BlueCalx/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.04-22.53.10:841][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/BlueCalx/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.04-22.53.10:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.04-22.53.10:841][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.04-22.53.10:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.04-22.53.10:841][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.04-22.53.10:978][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.04-22.53.10:990][  0]LogDerivedDataCache: Using Local data cache path C:/Users/BlueCalx/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.04-22.53.11:175][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.04-22.53.11:178][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.04-22.53.11:296][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.04-22.53.11:296][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.04-22.53.11:540][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.04-22.53.12:301][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.04-22.53.12:415][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.10.04-22.53.12:576][  0]SourceControl: Info Source control is disabled
+[2015.10.04-22.53.12:584][  0]SourceControl: Info Source control is disabled
+[2015.10.04-22.53.12:594][  0]SourceControl: Info Source control is disabled
+[2015.10.04-22.53.12:604][  0]SourceControl: Info Source control is disabled
+[2015.10.04-22.53.12:764][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.04-22.53.12:843][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.04-22.53.12:843][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.10.04-22.53.12:897][  0]LogEngine: Initializing Engine...
+[2015.10.04-22.53.12:900][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.04-22.53.12:900][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.04-22.53.13:009][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.04-22.53.13:015][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.04-22.53.13:026][  0]LogInit: FAudioDevice initialized.
+[2015.10.04-22.53.13:046][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/BlueCalx/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.04-22.53.13:052][  0]LogInit: Texture streaming: Enabled
+[2015.10.04-22.53.13:057][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.04-22.53.13:057][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.04-22.53.13:057][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a10e4cae43422faa09bee881c3e08abb|94a2a06035904ba98f263ec5aec48e1c|6370573e-46ef-4c5b-ad03-aa25a51b60c0
+[2015.10.04-22.53.13:057][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.04-22.53.13:068][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.04-22.53.13:087][  0]LogInit: Transaction tracking system initialized
+[2015.10.04-22.53.13:115][  0]BlueprintLog: New page: Editor Load
+[2015.10.04-22.53.13:801][  0]LocalizationService: Info Localization service is disabled
+[2015.10.04-22.53.14:008][  0]LogConsoleResponse:Display: 
+[2015.10.04-22.53.14:126][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/' took 0.01s
+[2015.10.04-22.53.14:126][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.04-22.53.14:197][  0]SourceControl: Info Source control is disabled
+[2015.10.04-22.53.14:203][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.9/FeaturePacks/StarterContent.upack)
+[2015.10.04-22.53.14:209][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2015.10.04-22.53.14:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2015.10.04-22.53.14:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2015.10.04-22.53.14:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2015.10.04-22.53.14:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2015.10.04-22.53.14:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2015.10.04-22.53.14:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2015.10.04-22.53.14:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2015.10.04-22.53.14:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2015.10.04-22.53.14:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2015.10.04-22.53.14:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2015.10.04-22.53.14:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2015.10.04-22.53.14:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Collapse01.uasset"
+[2015.10.04-22.53.14:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Collapse02.uasset"
+[2015.10.04-22.53.14:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2015.10.04-22.53.14:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Explosion01.uasset"
+[2015.10.04-22.53.14:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Explosion02.uasset"
+[2015.10.04-22.53.14:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2015.10.04-22.53.14:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Fire01.uasset"
+[2015.10.04-22.53.14:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2015.10.04-22.53.14:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2015.10.04-22.53.14:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2015.10.04-22.53.14:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Light01.uasset"
+[2015.10.04-22.53.14:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2015.10.04-22.53.14:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Light02.uasset"
+[2015.10.04-22.53.14:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2015.10.04-22.53.14:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Smoke01.uasset"
+[2015.10.04-22.53.14:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2015.10.04-22.53.14:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2015.10.04-22.53.14:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2015.10.04-22.53.14:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2015.10.04-22.53.14:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2015.10.04-22.53.14:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2015.10.04-22.53.14:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2015.10.04-22.53.14:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Steam01.uasset"
+[2015.10.04-22.53.14:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2015.10.04-22.53.14:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2015.10.04-22.53.14:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2015.10.04-22.53.14:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2015.10.04-22.53.14:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2015.10.04-22.53.14:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2015.10.04-22.53.14:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2015.10.04-22.53.14:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2015.10.04-22.53.14:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2015.10.04-22.53.14:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2015.10.04-22.53.14:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2015.10.04-22.53.14:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2015.10.04-22.53.14:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2015.10.04-22.53.14:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2015.10.04-22.53.14:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2015.10.04-22.53.14:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2015.10.04-22.53.14:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2015.10.04-22.53.14:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2015.10.04-22.53.14:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2015.10.04-22.53.14:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Maps/Minimal_Default.umap"
+[2015.10.04-22.53.14:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Maps/StarterMap.umap"
+[2015.10.04-22.53.14:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2015.10.04-22.53.14:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2015.10.04-22.53.14:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2015.10.04-22.53.14:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2015.10.04-22.53.14:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2015.10.04-22.53.14:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2015.10.04-22.53.14:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2015.10.04-22.53.14:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2015.10.04-22.53.14:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2015.10.04-22.53.14:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2015.10.04-22.53.14:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2015.10.04-22.53.14:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2015.10.04-22.53.14:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2015.10.04-22.53.14:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2015.10.04-22.53.14:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2015.10.04-22.53.14:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2015.10.04-22.53.14:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2015.10.04-22.53.14:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Glass.uasset"
+[2015.10.04-22.53.14:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2015.10.04-22.53.14:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2015.10.04-22.53.14:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2015.10.04-22.53.14:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2015.10.04-22.53.14:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2015.10.04-22.53.14:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2015.10.04-22.53.14:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2015.10.04-22.53.14:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2015.10.04-22.53.14:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2015.10.04-22.53.14:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2015.10.04-22.53.14:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2015.10.04-22.53.14:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2015.10.04-22.53.14:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2015.10.04-22.53.14:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2015.10.04-22.53.14:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2015.10.04-22.53.14:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2015.10.04-22.53.14:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2015.10.04-22.53.14:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2015.10.04-22.53.14:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2015.10.04-22.53.14:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2015.10.04-22.53.14:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2015.10.04-22.53.14:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2015.10.04-22.53.14:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2015.10.04-22.53.14:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2015.10.04-22.53.14:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2015.10.04-22.53.14:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2015.10.04-22.53.14:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/P_Explosion.uasset"
+[2015.10.04-22.53.14:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/P_Fire.uasset"
+[2015.10.04-22.53.14:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/P_Smoke.uasset"
+[2015.10.04-22.53.14:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/P_Sparks.uasset"
+[2015.10.04-22.53.14:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2015.10.04-22.53.14:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2015.10.04-22.53.14:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2015.10.04-22.53.14:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2015.10.04-22.53.14:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2015.10.04-22.53.14:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2015.10.04-22.53.14:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2015.10.04-22.53.14:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2015.10.04-22.53.14:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2015.10.04-22.53.14:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2015.10.04-22.53.14:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2015.10.04-22.53.14:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/MaterialSphere.uasset"
+[2015.10.04-22.53.14:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_Bush.uasset"
+[2015.10.04-22.53.14:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_Chair.uasset"
+[2015.10.04-22.53.14:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2015.10.04-22.53.14:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_Couch.uasset"
+[2015.10.04-22.53.14:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_Door.uasset"
+[2015.10.04-22.53.14:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2015.10.04-22.53.14:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2015.10.04-22.53.14:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2015.10.04-22.53.14:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2015.10.04-22.53.14:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2015.10.04-22.53.14:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2015.10.04-22.53.14:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2015.10.04-22.53.14:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_Rock.uasset"
+[2015.10.04-22.53.14:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_Shelf.uasset"
+[2015.10.04-22.53.14:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_Stairs.uasset"
+[2015.10.04-22.53.14:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_Statue.uasset"
+[2015.10.04-22.53.14:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_TableRound.uasset"
+[2015.10.04-22.53.14:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2015.10.04-22.53.14:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2015.10.04-22.53.14:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2015.10.04-22.53.14:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2015.10.04-22.53.14:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2015.10.04-22.53.14:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2015.10.04-22.53.14:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2015.10.04-22.53.14:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2015.10.04-22.53.14:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2015.10.04-22.53.14:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2015.10.04-22.53.14:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2015.10.04-22.53.14:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2015.10.04-22.53.14:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2015.10.04-22.53.14:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2015.10.04-22.53.14:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2015.10.04-22.53.14:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2015.10.04-22.53.14:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2015.10.04-22.53.14:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2015.10.04-22.53.14:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2015.10.04-22.53.14:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2015.10.04-22.53.14:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2015.10.04-22.53.14:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2015.10.04-22.53.14:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2015.10.04-22.53.14:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2015.10.04-22.53.14:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2015.10.04-22.53.14:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2015.10.04-22.53.14:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2015.10.04-22.53.14:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2015.10.04-22.53.14:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2015.10.04-22.53.14:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2015.10.04-22.53.14:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2015.10.04-22.53.14:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2015.10.04-22.53.14:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2015.10.04-22.53.14:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2015.10.04-22.53.14:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2015.10.04-22.53.14:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2015.10.04-22.53.14:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2015.10.04-22.53.14:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2015.10.04-22.53.14:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2015.10.04-22.53.14:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2015.10.04-22.53.14:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2015.10.04-22.53.14:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2015.10.04-22.53.14:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2015.10.04-22.53.14:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2015.10.04-22.53.14:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2015.10.04-22.53.14:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2015.10.04-22.53.14:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2015.10.04-22.53.14:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2015.10.04-22.53.14:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2015.10.04-22.53.14:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2015.10.04-22.53.14:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2015.10.04-22.53.14:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2015.10.04-22.53.14:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2015.10.04-22.53.14:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2015.10.04-22.53.14:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2015.10.04-22.53.14:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2015.10.04-22.53.14:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2015.10.04-22.53.14:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2015.10.04-22.53.14:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2015.10.04-22.53.14:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2015.10.04-22.53.14:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2015.10.04-22.53.15:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2015.10.04-22.53.15:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2015.10.04-22.53.15:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2015.10.04-22.53.15:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2015.10.04-22.53.15:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2015.10.04-22.53.15:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2015.10.04-22.53.15:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2015.10.04-22.53.15:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2015.10.04-22.53.15:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2015.10.04-22.53.15:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2015.10.04-22.53.15:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Door_M.uasset"
+[2015.10.04-22.53.15:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Door_N.uasset"
+[2015.10.04-22.53.15:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2015.10.04-22.53.15:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2015.10.04-22.53.15:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2015.10.04-22.53.15:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2015.10.04-22.53.15:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2015.10.04-22.53.15:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2015.10.04-22.53.15:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2015.10.04-22.53.15:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2015.10.04-22.53.15:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2015.10.04-22.53.15:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2015.10.04-22.53.15:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2015.10.04-22.53.15:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2015.10.04-22.53.15:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2015.10.04-22.53.15:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2015.10.04-22.53.15:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2015.10.04-22.53.15:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2015.10.04-22.53.15:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2015.10.04-22.53.15:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2015.10.04-22.53.15:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2015.10.04-22.53.15:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2015.10.04-22.53.15:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2015.10.04-22.53.15:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2015.10.04-22.53.15:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2015.10.04-22.53.15:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2015.10.04-22.53.15:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2015.10.04-22.53.15:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2015.10.04-22.53.15:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2015.10.04-22.53.15:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2015.10.04-22.53.15:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2015.10.04-22.53.15:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2015.10.04-22.53.15:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2015.10.04-22.53.15:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2015.10.04-22.53.15:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2015.10.04-22.53.15:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2015.10.04-22.53.15:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2015.10.04-22.53.15:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2015.10.04-22.53.15:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2015.10.04-22.53.15:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2015.10.04-22.53.15:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2015.10.04-22.53.15:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2015.10.04-22.53.15:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2015.10.04-22.53.15:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2015.10.04-22.53.15:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2015.10.04-22.53.15:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2015.10.04-22.53.15:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2015.10.04-22.53.15:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2015.10.04-22.53.15:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2015.10.04-22.53.15:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2015.10.04-22.53.15:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2015.10.04-22.53.15:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2015.10.04-22.53.15:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2015.10.04-22.53.15:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Water_M.uasset"
+[2015.10.04-22.53.15:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Water_N.uasset"
+[2015.10.04-22.53.15:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2015.10.04-22.53.15:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2015.10.04-22.53.15:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2015.10.04-22.53.15:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2015.10.04-22.53.15:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2015.10.04-22.53.15:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2015.10.04-22.53.15:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2015.10.04-22.53.15:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2015.10.04-22.53.15:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2015.10.04-22.53.16:968][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.10.04-22.53.17:502][  0]LogSavePackage: Save=17.290413ms
+[2015.10.04-22.53.17:502][  0]LogSavePackage: Moving '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Saved/Floor_400x400E1F4E1C04688D20953A956B103A6C67F.tmp' to '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.10.04-22.53.17:505][  0]LogSavePackage: Total save time: 25.411274ms
+[2015.10.04-22.53.17:505][  0]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.10.04-22.53.17:505][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.10.04-22.53.17:508][  0]Cmd: MAP LOAD FILE="../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.04-22.53.17:508][  0]LightingResults: New page: Lighting Build
+[2015.10.04-22.53.17:511][  0]MapCheck: New page: Map Check
+[2015.10.04-22.53.17:511][  0]LightingResults: New page: Lighting Build
+[2015.10.04-22.53.17:520][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003BBF796160
+[2015.10.04-22.53.17:676][  0]LogLinker:Warning: Asset '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.04-22.53.17:678][  0]LogLinker:Warning: Asset '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.04-22.53.18:077][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.10.04-22.53.18:558][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.10.04-22.53.18:973][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.10.04-22.53.19:411][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.10.04-22.53.19:811][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.10.04-22.53.20:536][  0]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.10.04-22.53.21:236][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.10.04-22.53.21:649][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.10.04-22.53.21:683][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.10.04-22.53.21:891][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.10.04-22.53.22:113][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.10.04-22.53.22:334][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.10.04-22.53.22:554][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.10.04-22.53.22:835][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.10.04-22.53.23:090][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.10.04-22.53.23:292][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.10.04-22.53.23:297][  0]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2015.10.04-22.53.23:315][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2015.10.04-22.53.23:506][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.10.04-22.53.23:704][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2015.10.04-22.53.23:902][  0]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.10.04-22.53.24:080][  0]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.10.04-22.53.24:375][  0]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2015.10.04-22.53.24:654][  0]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2015.10.04-22.53.24:876][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2015.10.04-22.53.24:952][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2015.10.04-22.53.25:028][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2015.10.04-22.53.25:102][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2015.10.04-22.53.25:178][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8)
+[2015.10.04-22.53.25:246][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8)
+[2015.10.04-22.53.25:252][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2015.10.04-22.53.25:329][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2015.10.04-22.53.25:451][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.04-22.53.25:559][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.04-22.53.25:560][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.04-22.53.25:610][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.653ms to complete.
+[2015.10.04-22.53.25:610][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 8.102
+[2015.10.04-22.53.25:773][  0]LogCollectionManager: Loaded 0 collections in 0.002024 seconds
+[2015.10.04-22.53.25:828][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Saved/Collections/' took 0.01s
+[2015.10.04-22.53.25:828][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/Developers/BlueCalx/Collections/' took 0.01s
+[2015.10.04-22.53.25:828][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/Collections/' took 0.01s
+[2015.10.04-22.53.25:828][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 1867 classes and 333 folders.
+[2015.10.04-22.53.25:849][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.10.04-22.53.25:863][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.04-22.53.25:898][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.04-22.53.25:911][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.10.04-22.53.25:985][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.04-22.53.26:054][  0]LogLoad: Full Startup: 17.76 seconds (BP compile: 0.14 seconds)
+[2015.10.04-22.53.26:063][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Failed import for SkeletalMeshComponent /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:SkeletalMesh_GEN_VARIABLE
+[2015.10.04-22.53.26:411][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.04-22.53.26:551][  0]LogRenderer: Reallocating scene render targets to support 1004x456 (Frame:3).
+[2015.10.04-22.53.26:881][  6]LogAssetRegistry: Asset discovery search completed in 14.4770 seconds
+[2015.10.04-22.53.26:881][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.10.04-22.53.26:881][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2015.10.04-22.54.02:994][591]LogRenderer: Reallocating scene render targets to support 1004x520 (Frame:1454).
+[2015.10.04-22.54.05:475][882]LogRenderer: Reallocating scene render targets to support 1028x520 (Frame:1714).
+[2015.10.04-22.54.14:509][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2015.10.04-22.54.17:484][318]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.04-22.54.17:754][319]Cmd: QUIT_EDITOR
+[2015.10.04-22.54.18:011][319]LogExit: Preparing to exit.
+[2015.10.04-22.54.18:417][319]LogExit: Editor shut down
+[2015.10.04-22.54.18:417][319]LogExit: Transaction tracking system shut down
+[2015.10.04-22.54.18:418][319]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003BA13C5300
+[2015.10.04-22.54.18:419][319]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003BD252F600
+[2015.10.04-22.54.18:420][319]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003BD114CE00
+[2015.10.04-22.54.18:586][319]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003BFE8EEDE0
+[2015.10.04-22.54.18:586][319]LogExit: Object subsystem successfully closed.
+[2015.10.04-22.54.18:604][319]LogD3D11RHI: Shutdown
+[2015.10.04-22.54.18:604][319]LogD3D11RHI: CleanupD3DDevice
+[2015.10.04-22.54.18:669][319]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.04-22.54.18:689][319]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.10.04-22.54.18:689][319]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.10.04-22.54.18:698][319]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.10.04-22.54.18:699][319]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.10.04-22.54.18:699][319]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.04-22.54.18:700][319]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.04-22.54.18:701][319]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.04-22.54.18:701][319]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.04-22.54.18:701][319]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.04-22.54.18:701][319]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.04-22.54.18:701][319]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.04-22.54.18:701][319]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.04-22.54.18:869][319]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.04-22.54.18:870][319]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.04-22.54.18:871][319]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.04-22.54.18:923][319]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.04-22.54.18:923][319]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.04-22.54.18:923][319]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.04-22.54.18:923][319]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.04-22.54.18:923][319]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.04-22.54.18:923][319]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.04-22.54.18:923][319]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.04-22.54.18:923][319]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.04-22.54.18:936][319]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.04-22.54.18:936][319]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.04-22.54.18:936][319]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.04-22.54.18:936][319]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.04-22.54.18:936][319]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.04-22.54.18:936][319]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.04-22.54.18:936][319]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.04-22.54.18:936][319]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.04-22.54.18:936][319]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.04-22.54.18:937][319]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.04-22.54.18:938][319]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.04-22.54.18:938][319]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.04-22.54.19:006][319]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.04-22.54.19:006][319]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.04-22.54.19:006][319]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.04-22.54.19:107][319]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.04-22.54.19:107][319]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.04-22.54.19:107][319]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.04-22.54.19:109][319]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.04-22.54.19:109][319]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.04-22.54.19:109][319]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.04-22.54.19:109][319]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.04-22.54.19:109][319]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.04-22.54.19:109][319]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.04-22.54.19:109][319]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.04-22.54.19:109][319]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.04-22.54.19:109][319]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.04-22.54.19:109][319]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.04-22.54.19:109][319]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.04-22.54.19:109][319]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.04-22.54.19:109][319]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.04-22.54.19:110][319]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.04-22.54.19:110][319]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.04-22.54.19:110][319]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.04-22.54.19:111][319]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.04-22.54.19:111][319]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.04-22.54.19:111][319]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.04-22.54.19:111][319]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.04-22.54.19:111][319]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.04-22.54.19:111][319]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.04-22.54.19:111][319]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.04-22.54.19:111][319]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.04-22.54.19:112][319]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.04-22.54.19:112][319]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.04-22.54.19:112][319]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.04-22.54.19:536][319]LogDerivedDataCache: Shutdown
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.04-22.54.19:536][319]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.04-22.54.21:538][319]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.04-22.54.21:538][319]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.04-22.54.21:538][319]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.04-22.54.21:538][319]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.04-22.54.21:538][319]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.04-22.54.21:538][319]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.04-22.54.21:538][319]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.04-22.54.21:538][319]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.04-22.54.21:539][319]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.04-22.54.21:539][319]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.04-22.54.21:539][319]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.04-22.54.21:539][319]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.04-22.54.21:539][319]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.04-22.54.21:539][319]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.04-22.54.21:539][319]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.04-22.54.21:539][319]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.04-22.54.21:539][319]LogExit: Exiting.
+[2015.10.04-22.54.21:554][319]Log file closed, 10/05/15 00:54:21

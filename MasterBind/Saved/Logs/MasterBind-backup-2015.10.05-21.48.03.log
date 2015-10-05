@@ -1,0 +1,531 @@
+﻿[2015.10.05-00.18.48:485][  0]Log file open, 10/05/15 02:18:48
+[2015.10.05-00.18.48:485][  0]LogInit:Display: Running engine for game: MasterBind
+[2015.10.05-00.18.48:485][  0]LogInit:Display: RandInit(1258787343) SRandInit(1258787344).
+[2015.10.05-00.18.48:485][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.05-00.18.48:485][  0]LogStats: Stats thread started at 0.079863
+[2015.10.05-00.18.48:485][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.05-00.18.48:485][  0]LogInit: API Version: 2672455
+[2015.10.05-00.18.48:486][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.05-00.18.48:486][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.05-00.18.48:486][  0]LogInit: Build Configuration: Development
+[2015.10.05-00.18.48:486][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.05-00.18.48:486][  0]LogInit: Command line: 
+[2015.10.05-00.18.48:486][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.05-00.18.48:486][  0]LogInit: Rocket: 1
+[2015.10.05-00.18.48:493][  0]LogInit: Using libcurl 7.41.0
+[2015.10.05-00.18.48:494][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.05-00.18.48:494][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.05-00.18.48:494][  0]LogInit:  - other features:
+[2015.10.05-00.18.48:494][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.05-00.18.48:494][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.05-00.18.48:494][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.05-00.18.48:494][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.05-00.18.48:494][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.05-00.18.48:494][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.05-00.18.48:494][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.05-00.18.48:494][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.05-00.18.48:494][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.05-00.18.48:494][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.05-00.18.48:501][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.05-00.18.48:508][  0]LogInit: Object subsystem initialized
+[2015.10.05-00.18.48:509][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.05-00.18.48:509][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.05-00.18.48:521][  0]LogInit: Computer: BLUECALX-PC
+[2015.10.05-00.18.48:521][  0]LogInit: User: BlueCalx
+[2015.10.05-00.18.48:521][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.05-00.18.48:521][  0]LogInit: High frequency timer resolution =3.320337 MHz
+[2015.10.05-00.18.48:521][  0]LogMemory: Memory total: Physical=9.9GB (10GB approx)
+[2015.10.05-00.18.48:521][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.05-00.18.48:521][  0]LogMemory: Process Physical Memory: 54.25 MB used, 54.25 MB peak
+[2015.10.05-00.18.48:521][  0]LogMemory: Process Virtual Memory: 58.27 MB used, 58.27 MB peak
+[2015.10.05-00.18.48:521][  0]LogMemory: Physical Memory: 4819.46 MB used, 10126.94 MB total
+[2015.10.05-00.18.48:521][  0]LogMemory: Virtual Memory: 368.68 MB used, 134217728.00 MB total
+[2015.10.05-00.18.48:554][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2015.10.05-00.18.49:321][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.10.05-00.18.49:321][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 5063MB of shared system memory, 1 output[s]
+[2015.10.05-00.18.49:324][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.10.05-00.18.49:324][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.10.05-00.18.49:325][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.05-00.18.49:325][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 5063MB of shared system memory, 0 output[s]
+[2015.10.05-00.18.49:325][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.05-00.18.49:328][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.05-00.18.49:328][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.05-00.18.49:343][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.05-00.18.49:355][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Intermediate/Shaders/WorkingDirectory/3332/).
+[2015.10.05-00.18.49:355][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Intermediate/Shaders/tmp/FA68EB4D4359EDB12E0EF4B7440563EA/'.
+[2015.10.05-00.18.49:355][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.05-00.18.50:346][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.05-00.18.50:351][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.05-00.18.50:357][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.05-00.18.50:362][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.05-00.18.50:367][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.05-00.18.50:371][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.05-00.18.50:374][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.05-00.18.50:377][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.05-00.18.50:380][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.05-00.18.50:384][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.05-00.18.50:387][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.05-00.18.50:392][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.05-00.18.50:393][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.05-00.18.50:409][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.05-00.18.50:413][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.05-00.18.50:416][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.05-00.18.50:420][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.05-00.18.50:420][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.05-00.18.50:502][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.05-00.18.50:545][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/BlueCalx/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.05-00.18.50:545][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/BlueCalx/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.05-00.18.50:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.05-00.18.50:545][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.05-00.18.50:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.05-00.18.50:545][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.05-00.18.50:681][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.05-00.18.50:692][  0]LogDerivedDataCache: Using Local data cache path C:/Users/BlueCalx/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.05-00.18.50:875][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.05-00.18.50:878][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.05-00.18.50:999][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.05-00.18.50:999][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.05-00.18.51:239][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.05-00.18.51:891][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.05-00.18.51:987][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.10.05-00.18.52:157][  0]SourceControl: Info Source control is disabled
+[2015.10.05-00.18.52:165][  0]SourceControl: Info Source control is disabled
+[2015.10.05-00.18.52:177][  0]SourceControl: Info Source control is disabled
+[2015.10.05-00.18.52:188][  0]SourceControl: Info Source control is disabled
+[2015.10.05-00.18.52:333][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-00.18.52:411][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.05-00.18.52:411][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.05-00.18.52:469][  0]LogEngine: Initializing Engine...
+[2015.10.05-00.18.52:471][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.05-00.18.52:472][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.05-00.18.52:597][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.05-00.18.52:603][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-00.18.52:614][  0]LogInit: FAudioDevice initialized.
+[2015.10.05-00.18.52:637][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/BlueCalx/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.05-00.18.52:644][  0]LogInit: Texture streaming: Enabled
+[2015.10.05-00.18.52:650][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.05-00.18.52:650][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.05-00.18.52:650][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a10e4cae43422faa09bee881c3e08abb|94a2a06035904ba98f263ec5aec48e1c|6370573e-46ef-4c5b-ad03-aa25a51b60c0
+[2015.10.05-00.18.52:650][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.05-00.18.52:661][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.05-00.18.52:682][  0]LogInit: Transaction tracking system initialized
+[2015.10.05-00.18.52:716][  0]BlueprintLog: New page: Editor Load
+[2015.10.05-00.18.53:113][  0]LocalizationService: Info Localization service is disabled
+[2015.10.05-00.18.53:187][  0]LogConsoleResponse:Display: 
+[2015.10.05-00.18.53:294][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.05-00.18.53:353][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/' took 0.01s
+[2015.10.05-00.18.53:353][  0]SourceControl: Info Source control is disabled
+[2015.10.05-00.18.53:354][  0]Cmd: MAP LOAD FILE="../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.05-00.18.53:354][  0]LightingResults: New page: Lighting Build
+[2015.10.05-00.18.53:357][  0]MapCheck: New page: Map Check
+[2015.10.05-00.18.53:357][  0]LightingResults: New page: Lighting Build
+[2015.10.05-00.18.53:369][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005E3A62160
+[2015.10.05-00.18.53:522][  0]LogLinker:Warning: Asset '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-00.18.53:524][  0]LogLinker:Warning: Asset '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-00.18.53:960][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.05-00.18.53:972][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.05-00.18.53:972][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.05-00.18.54:030][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.11ms to complete.
+[2015.10.05-00.18.54:030][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.677
+[2015.10.05-00.18.54:148][  0]LogCollectionManager: Loaded 0 collections in 0.002321 seconds
+[2015.10.05-00.18.54:189][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Saved/Collections/' took 0.01s
+[2015.10.05-00.18.54:189][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/Developers/BlueCalx/Collections/' took 0.01s
+[2015.10.05-00.18.54:189][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/Collections/' took 0.01s
+[2015.10.05-00.18.54:189][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 1867 classes and 333 folders.
+[2015.10.05-00.18.54:195][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.10.05-00.18.54:203][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.05-00.18.54:244][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.10.05-00.18.54:250][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.10.05-00.18.54:274][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.05-00.18.54:317][  0]LogLoad: Full Startup: 6.35 seconds (BP compile: 0.14 seconds)
+[2015.10.05-00.18.54:326][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Failed import for SkeletalMeshComponent /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:SkeletalMesh_GEN_VARIABLE
+[2015.10.05-00.18.54:361][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.05-00.18.54:498][  0]LogRenderer: Reallocating scene render targets to support 1028x520 (Frame:2).
+[2015.10.05-00.18.54:722][  5]LogAssetRegistry: Asset discovery search completed in 2.7457 seconds
+[2015.10.05-00.18.54:722][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.05-00.18.54:722][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2015.10.05-00.19.15:092][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.05-00.19.15:092][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-00.19.15:094][424]PIE: New page: PIE session: FirstPersonExampleMap (Oct 5, 2015, 4:19:15 AM)
+[2015.10.05-00.19.15:095][424]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.05-00.19.15:126][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031190s)
+[2015.10.05-00.19.15:127][424]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.05-00.19.15:127][424]LogPlayLevel: PIE: World Init took: (0.001327s)
+[2015.10.05-00.19.15:128][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.033267s)
+[2015.10.05-00.19.15:156][424]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-00.19.15:165][424]LogInit: FAudioDevice initialized.
+[2015.10.05-00.19.15:225][424]LogLinker:Warning: Asset '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-00.19.15:284][424]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.05-00.19.15:300][424]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.05-02.19.15
+[2015.10.05-00.19.15:300][424]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-00.19.15:301][424]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-00.19.15:305][424]LogWorld: Bringing up level for play took: 0.011572
+[2015.10.05-00.19.15:326][424]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.473
+[2015.10.05-00.19.15:326][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.05-00.19.42:903][718]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.05-00.19.42:936][718]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.05-00.19.42:949][718]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005EFACA340
+[2015.10.05-00.20.27:606][948]LogMetaData: Removing '/Game/FirstPersonBP/Maps/test_maps/FirstPersonExampleMap.FirstPersonExampleMap_C' ref from Metadata '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.PackageMetaData'
+[2015.10.05-00.20.27:606][948]LogMetaData: Removing '/Game/FirstPersonBP/Maps/test_maps/FirstPersonExampleMap.SKEL_FirstPersonExampleMap_C' ref from Metadata '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.PackageMetaData'
+[2015.10.05-00.20.28:958][948]LogSavePackage: Save=1252.271973ms
+[2015.10.05-00.20.28:958][948]LogSavePackage: Moving '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Saved/FirstPersonExampleMapFB6A445D46F34CCD94CFD6BED847F8EE.tmp' to '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/test_maps/FirstPersonExampleMap.umap'
+[2015.10.05-00.20.28:962][948]LogSavePackage: Total save time: 1256.024010ms
+[2015.10.05-00.20.28:962][948]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/test_maps/FirstPersonExampleMap.umap
+[2015.10.05-00.20.29:030][948]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.393
+[2015.10.05-00.20.45:808][671]LogSavePackage: Save=9.213523ms
+[2015.10.05-00.20.45:808][671]LogSavePackage: Moving '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Saved/testC62D687840360D447F19FF92B579296A.tmp' to '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/test_maps/test.umap'
+[2015.10.05-00.20.45:810][671]LogSavePackage: Total save time: 11.912044ms
+[2015.10.05-00.20.45:810][671]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/test_maps/test.umap
+[2015.10.05-00.20.45:810][671]LogFileHelpers: Saving map 'test' took 0.085
+[2015.10.05-00.20.45:812][671]Cmd: MAP LOAD FILE="../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/test_maps/test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.05-00.20.45:812][671]LightingResults: New page: Lighting Build
+[2015.10.05-00.20.45:828][671]LoadErrors: New page: Loading map: test.umap
+[2015.10.05-00.20.45:829][671]MapCheck: New page: Map Check
+[2015.10.05-00.20.45:829][671]LightingResults: New page: Lighting Build
+[2015.10.05-00.20.45:843][671]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005D3BB4860
+[2015.10.05-00.20.45:892][671]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.05-00.20.45:892][671]LogAIModule: Creating AISystem for world test
+[2015.10.05-00.20.45:931][671]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.05-00.20.45:986][671]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.956ms to complete.
+[2015.10.05-00.20.45:987][671]LogFileHelpers: Loading map 'test' took 0.176
+[2015.10.05-00.21.02:275][606]Cmd: UpdateLandscapeSetup
+[2015.10.05-00.21.07:954][284]LogActorFactory: Actor Factory created Cube
+[2015.10.05-00.21.08:281][322]LogActorFactory: Actor Factory created Cube
+[2015.10.05-00.21.11:477][697]LogActorFactory: Actor Factory created Cube
+[2015.10.05-00.21.11:850][741]LogActorFactory: Actor Factory created Cube
+[2015.10.05-00.21.39:365][ 24]LogEditorViewport: Clicking Background
+[2015.10.05-00.22.11:093][800]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.10.05-00.22.11:832][884]Cmd: DELETE
+[2015.10.05-00.22.11:832][884]Cmd: ACTOR DELETE
+[2015.10.05-00.22.11:834][884]LogEditorActor: Deleted Actor: DirectionalLight
+[2015.10.05-00.22.11:846][884]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2015.10.05-00.22.19:864][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.10.05-00.22.55:606][114]Cmd: EDIT COPY
+[2015.10.05-00.22.56:081][170]LogEditorViewport: Clicking Background
+[2015.10.05-00.22.56:560][227]Cmd: EDIT PASTE
+[2015.10.05-00.23.09:089][719]LogEditorViewport: Clicking Background
+[2015.10.05-00.23.17:006][661]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.05-00.23.18:695][661]LogSavePackage: Save=13.615485ms
+[2015.10.05-00.23.18:695][661]LogSavePackage: Moving '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Saved/test38EC6A2144A899BC328FBB8AC464A544.tmp' to '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/test_maps/test.umap'
+[2015.10.05-00.23.18:697][661]LogSavePackage: Total save time: 17.617486ms
+[2015.10.05-00.23.18:697][661]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/test_maps/test.umap
+[2015.10.05-00.23.18:729][661]LogFileHelpers: Saving map 'test' took 0.125
+[2015.10.05-00.23.18:731][661]Cmd: MAP LOAD FILE="../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/test_maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.05-00.23.18:731][661]LightingResults: New page: Lighting Build
+[2015.10.05-00.23.18:746][661]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2015.10.05-00.23.18:747][661]MapCheck: New page: Map Check
+[2015.10.05-00.23.18:747][661]LightingResults: New page: Lighting Build
+[2015.10.05-00.23.18:759][661]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005D42B0EA0
+[2015.10.05-00.23.18:807][661]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.05-00.23.18:835][661]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.05-00.23.18:890][661]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.593ms to complete.
+[2015.10.05-00.23.18:890][661]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.161
+[2015.10.05-00.23.20:946][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.05-00.23.25:628][452]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.10.05-00.23.27:268][628]Cmd: EDIT COPY
+[2015.10.05-00.23.28:229][733]LogAIModule: Creating AISystem for world test
+[2015.10.05-00.23.28:244][733]Cmd: MAP LOAD FILE="../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/test_maps/test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.05-00.23.28:244][733]LightingResults: New page: Lighting Build
+[2015.10.05-00.23.28:260][733]LoadErrors: New page: Loading map: test.umap
+[2015.10.05-00.23.28:285][733]MapCheck: New page: Map Check
+[2015.10.05-00.23.28:285][733]LightingResults: New page: Lighting Build
+[2015.10.05-00.23.28:295][733]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005F25B9120
+[2015.10.05-00.23.28:351][733]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.05-00.23.28:381][733]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.05-00.23.28:435][733]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.667ms to complete.
+[2015.10.05-00.23.28:435][733]LogFileHelpers: Loading map 'test' took 0.193
+[2015.10.05-00.23.29:185][822]Cmd: EDIT PASTE
+[2015.10.05-00.23.34:941][492]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2015.10.05-00.23.36:374][648]LogEditorViewport: Clicking Background
+[2015.10.05-00.23.36:845][704]Cmd: EDIT PASTE
+[2015.10.05-00.23.40:807][154]LogEditorActor: Deleted Actor: FirstPersonCharacter_C
+[2015.10.05-00.23.40:818][154]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2015.10.05-00.24.42:794][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-00.24.42:794][974]PIE: New page: PIE session: test (Oct 5, 2015, 4:24:42 AM)
+[2015.10.05-00.24.42:794][974]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test
+[2015.10.05-00.24.42:795][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001055s)
+[2015.10.05-00.24.42:795][974]LogAIModule: Creating AISystem for world test
+[2015.10.05-00.24.42:796][974]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2015.10.05-00.24.42:796][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/test_maps/test.test to /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test (0.001829s)
+[2015.10.05-00.24.42:850][974]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-00.24.42:860][974]LogInit: FAudioDevice initialized.
+[2015.10.05-00.24.42:891][974]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.05-00.24.42:893][974]LogWorld: Bringing World /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2015.10.05-02.24.42
+[2015.10.05-00.24.42:893][974]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-00.24.42:894][974]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-00.24.42:894][974]LogWorld: Bringing up level for play took: 0.002234
+[2015.10.05-00.24.42:896][974]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test 0.043
+[2015.10.05-00.25.01:849][234]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005B0845440
+[2015.10.05-00.25.29:727][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.10.05-00.25.33:029][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.10.05-00.25.36:177][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.10.05-00.25.40:253][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.10.05-00.25.48:443][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-00.25.48:443][204]PIE: New page: PIE session: test (Oct 5, 2015, 4:25:48 AM)
+[2015.10.05-00.25.48:443][204]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test
+[2015.10.05-00.25.48:444][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001216s)
+[2015.10.05-00.25.48:445][204]LogAIModule: Creating AISystem for world test
+[2015.10.05-00.25.48:445][204]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2015.10.05-00.25.48:445][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/test_maps/test.test to /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test (0.001935s)
+[2015.10.05-00.25.48:462][204]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-00.25.48:472][204]LogInit: FAudioDevice initialized.
+[2015.10.05-00.25.48:509][204]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.05-00.25.48:512][204]LogWorld: Bringing World /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2015.10.05-02.25.48
+[2015.10.05-00.25.48:512][204]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-00.25.48:512][204]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-00.25.48:512][204]LogWorld: Bringing up level for play took: 0.002296
+[2015.10.05-00.25.48:513][204]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test -0.34
+[2015.10.05-00.25.55:228][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005ADCA9A80
+[2015.10.05-00.25.57:057][217]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.10.05-00.26.05:651][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-00.26.05:651][175]PIE: New page: PIE session: test (Oct 5, 2015, 4:26:05 AM)
+[2015.10.05-00.26.05:651][175]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test
+[2015.10.05-00.26.05:652][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001050s)
+[2015.10.05-00.26.05:652][175]LogAIModule: Creating AISystem for world test
+[2015.10.05-00.26.05:652][175]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2015.10.05-00.26.05:653][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/test_maps/test.test to /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test (0.001778s)
+[2015.10.05-00.26.05:667][175]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-00.26.05:676][175]LogInit: FAudioDevice initialized.
+[2015.10.05-00.26.05:708][175]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.05-00.26.05:711][175]LogWorld: Bringing World /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2015.10.05-02.26.05
+[2015.10.05-00.26.05:711][175]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-00.26.05:711][175]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-00.26.05:711][175]LogWorld: Bringing up level for play took: 0.002318
+[2015.10.05-00.26.05:712][175]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test 0.86
+[2015.10.05-00.26.15:611][354]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000058CBFFCE0
+[2015.10.05-00.26.18:437][682]LogSavePackage: Save=22.378450ms
+[2015.10.05-00.26.18:438][682]LogSavePackage: Moving '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Saved/test3FB8F5024749F00D4C3EC0BD9B5AF947.tmp' to '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/test_maps/test.umap'
+[2015.10.05-00.26.18:440][682]LogSavePackage: Total save time: 25.691971ms
+[2015.10.05-00.26.18:440][682]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/test_maps/test.umap
+[2015.10.05-00.26.54:572][974]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.10.05-00.27.29:504][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.05-00.27.29:504][127]PIE: New page: PIE session: test (Oct 5, 2015, 4:27:29 AM)
+[2015.10.05-00.27.29:504][127]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test
+[2015.10.05-00.27.29:507][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002806s)
+[2015.10.05-00.27.29:508][127]LogAIModule: Creating AISystem for world test
+[2015.10.05-00.27.29:508][127]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2015.10.05-00.27.29:508][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/test_maps/test.test to /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test (0.004140s)
+[2015.10.05-00.27.29:524][127]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-00.27.29:534][127]LogInit: FAudioDevice initialized.
+[2015.10.05-00.27.29:568][127]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.05-00.27.29:571][127]LogWorld: Bringing World /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2015.10.05-02.27.29
+[2015.10.05-00.27.29:571][127]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-00.27.29:571][127]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test.test:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.05-00.27.29:571][127]LogWorld: Bringing up level for play took: 0.002414
+[2015.10.05-00.27.29:572][127]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/test_maps/UEDPIE_0_test 0.719
+[2015.10.05-00.27.48:903][440]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005F7A43E20
+[2015.10.05-00.27.52:248][828]LogSavePackage: Save=32.255463ms
+[2015.10.05-00.27.52:248][828]LogSavePackage: Moving '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Saved/test0B217CA14C53E8E601CD9EBD78599D81.tmp' to '../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/test_maps/test.umap'
+[2015.10.05-00.27.52:251][828]LogSavePackage: Total save time: 35.982490ms
+[2015.10.05-00.27.52:251][828]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/BlueCalx/Documents/GitHub/TrapMaster/MasterBind/Content/FirstPersonBP/Maps/test_maps/test.umap
+[2015.10.05-00.27.53:239][930]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.05-00.27.53:491][931]Cmd: QUIT_EDITOR
+[2015.10.05-00.27.54:462][931]LogExit: Preparing to exit.
+[2015.10.05-00.27.55:148][931]LogExit: Editor shut down
+[2015.10.05-00.27.55:148][931]LogExit: Transaction tracking system shut down
+[2015.10.05-00.27.55:152][931]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005F25BA200
+[2015.10.05-00.27.55:152][931]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005D1E67F60
+[2015.10.05-00.27.55:152][931]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005D45956C0
+[2015.10.05-00.27.55:152][931]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005F26B8900
+[2015.10.05-00.27.55:285][931]LogExit: Object subsystem successfully closed.
+[2015.10.05-00.27.55:303][931]LogD3D11RHI: Shutdown
+[2015.10.05-00.27.55:303][931]LogD3D11RHI: CleanupD3DDevice
+[2015.10.05-00.27.55:355][931]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.05-00.27.55:373][931]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.10.05-00.27.55:373][931]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.10.05-00.27.55:373][931]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.10.05-00.27.55:373][931]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.10.05-00.27.55:373][931]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.10.05-00.27.55:373][931]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.05-00.27.55:374][931]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.05-00.27.56:301][931]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.05-00.27.56:301][931]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.05-00.27.56:301][931]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.05-00.27.56:302][931]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.05-00.27.56:303][931]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.05-00.27.56:303][931]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.05-00.27.56:303][931]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.05-00.27.56:303][931]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.05-00.27.56:303][931]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.05-00.27.56:303][931]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.05-00.27.56:303][931]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.05-00.27.56:303][931]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.05-00.27.56:303][931]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.05-00.27.56:303][931]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.05-00.27.56:303][931]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.05-00.27.56:303][931]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.05-00.27.56:303][931]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.05-00.27.56:304][931]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.05-00.27.56:304][931]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.05-00.27.56:304][931]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.05-00.27.56:304][931]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.05-00.27.56:306][931]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.05-00.27.56:479][931]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.05-00.27.56:479][931]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.05-00.27.56:479][931]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.05-00.27.56:479][931]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.05-00.27.56:479][931]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.05-00.27.56:479][931]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.05-00.27.56:479][931]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.05-00.27.56:479][931]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.05-00.27.56:491][931]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.05-00.27.56:491][931]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.05-00.27.56:491][931]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.05-00.27.56:491][931]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.05-00.27.56:491][931]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.05-00.27.56:491][931]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.05-00.27.56:491][931]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.05-00.27.56:491][931]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.05-00.27.56:491][931]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.05-00.27.56:491][931]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.05-00.27.56:491][931]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.05-00.27.56:491][931]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.05-00.27.56:492][931]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.05-00.27.56:492][931]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.05-00.27.56:492][931]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.05-00.27.56:492][931]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.05-00.27.56:492][931]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.05-00.27.56:492][931]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.05-00.27.56:492][931]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.05-00.27.56:492][931]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.05-00.27.56:492][931]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.05-00.27.56:492][931]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.05-00.27.56:492][931]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.05-00.27.56:492][931]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.05-00.27.56:493][931]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.05-00.27.56:493][931]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.05-00.27.56:622][931]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.05-00.27.56:623][931]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.05-00.27.56:623][931]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.05-00.27.56:724][931]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.05-00.27.56:724][931]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.05-00.27.56:724][931]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.05-00.27.56:726][931]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.05-00.27.56:726][931]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.05-00.27.56:727][931]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.05-00.27.56:729][931]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.05-00.27.56:729][931]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.05-00.27.56:729][931]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.05-00.27.56:729][931]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.05-00.27.56:729][931]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.05-00.27.56:729][931]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.05-00.27.56:729][931]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.05-00.27.56:729][931]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.05-00.27.56:729][931]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.05-00.27.56:729][931]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.05-00.27.56:730][931]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.05-00.27.56:828][931]LogDerivedDataCache: Shutdown
+[2015.10.05-00.27.56:828][931]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.05-00.27.56:828][931]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.05-00.27.56:828][931]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.05-00.27.56:828][931]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.05-00.27.56:829][931]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.05-00.27.58:831][931]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.05-00.27.58:831][931]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.05-00.27.58:831][931]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.05-00.27.58:831][931]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.05-00.27.58:831][931]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.05-00.27.58:831][931]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.05-00.27.58:832][931]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.05-00.27.58:832][931]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.05-00.27.58:832][931]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.05-00.27.58:832][931]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.05-00.27.58:832][931]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.05-00.27.58:832][931]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.05-00.27.58:832][931]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.05-00.27.58:832][931]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.05-00.27.58:832][931]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.05-00.27.58:832][931]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.05-00.27.58:833][931]LogExit: Exiting.
+[2015.10.05-00.27.58:847][931]Log file closed, 10/05/15 02:27:58

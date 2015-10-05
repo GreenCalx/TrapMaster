@@ -1,1 +1,33 @@
-Game Design
+Titre :
+Joueurs : 2
+Genre : Versus, FPS, Stratégie (+~RPG?)
+
+Concept initial :
+
+Deux joueurs s'affrontent sur un plateau de jeu type labyrinthe.
+L'un des joueurs conçoit le labytinthe en créeant le patron ainsi qu'en disposant divers pièges.
+Ces pièges doivent être actionnés manuellement.
+Une fois la partie commencée, il n'a accès à ce qui se déroule sur le plateau de jeu uniquement à travers
+un set de caméras placés au préalable.
+L'autre joueur lui commence à l'entrée du labyrinthe et doit atteindre la sortie en vie.
+
+Concept v2 :
+
+La partie se déroule en un nombre de round prédéfinis de chaque côté. Les joueurs alternent concepteur et fugitif.
+Le concepteur peut choisir parmis un nombre définis de patron de labyrinthe qu'il aura lui même conçu au préalable.
+Le fugitif aura accès à un panel de classes pour venir à bout du labyrinthe.
+Ces classes devront proposer un gameplay suffisament varié pour justifier le choix de patrons relativement différent pour le concepteur.
+
+De plus, les rounds imposent maintenant une continuitée dans la partie. En effet, un joueur peut associer à chaques classes un 'deck' de loots
+qu'il aura la possibilitée de looter pendant les rounds. Ce card system sera détaillé plus loin. De même pour le concepteur, qui en fonction de son
+indicateur d'efficacitée pourra avoir accès à certains avantages non établis pour le moment.
+
+
+#--------------------------------#
+
+Rôles	: Concepteur / Fugitif
+Partie	: 3 rounds en C, 3 rounds en F
+Durée	: 5min / round
+Classes	: 
+
+
